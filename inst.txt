@@ -1,0 +1,8 @@
+1. Открыть VS Code, открыть любую папку
+2. В терминале ввести "py -m venv venv" для создания виртульного окружения
+3. Активировать ВО venv/Scripts/activate
+4. Установка Django: pip install django
+5. django-admin startproject "name", cd "name"
+6. py manage.py startapp app
+7. В settings настроить языки и регион, настроить путь к media,teplates,static и добавить app
+8. Создать файл для зависимостей, pip freeze > название фала.txt
